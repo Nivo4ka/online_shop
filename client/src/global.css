@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+    background-color: #B398FF !important;
+    border: 1px solid #B398FF !important;
+    border-radius: 7px;
+    padding: 8px 15px;
+    line-height: 20px;
+    font-family: Roboto;
+    white-space: nowrap;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #847B9B !important;
+    border: 1px solid #847B9B !important;
+}
+
+.btn-text-uppercase {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #B398FF;
+    border-color: #B398FF;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,99 @@
+.carousel-caption {
+    right: auto;
+    left: 15%;
+    bottom: 29%;
+    text-shadow: 0px 7px 15px #847b9b;
+}
+
+.carousel-caption.caption-1 {
+    bottom: 27%;
+}
+
+.carousel-caption.caption-2 {
+    bottom: 22%;
+}
+
+.carousel-caption.caption-3 {
+    bottom: 22%;
+    left: 30%;
+}
+
+
+.carousel-item img {
+    background-size:cover;
+    max-height: 300px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    margin-top: 40px;
+    color: #343434;
+}
+
+.slide-title {
+    font-weight: 700;
+    font-size: 40px
+}
+
+.slide-title-3 {
+    font-weight: 700;
+    font-size: 40px;
+    /* color: #B398FF; */
+}
+
+.slide-text {
+    font-size: 20px
+}
+
+.best-offers {
+    margin-top: 30px;
+}
+
+.features {
+    margin-top: 80px;
+}
+
+.why .card-body {
+    display: flex;
+    align-items: center
+}
+
+.title {
+    margin-top:10px;
+    font-size: 20px;
+}
+
+.section-title{
+    margin-top: 80px;
+    text-align: center;
+    color: #343434;
+}
+
+.separator {
+    height: 3px;
+    background-color: #DED2FF;
+    width: 90px;
+    display: block;
+    position: relative;
+    margin-top: 24px;
+}
+
+.icon {
+    background-color: #DED2FF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,12 @@
+.dropdown-item {
+    background-color: #DED2FF;
+}
+
+.dropdown-item.active {
+    background-color: #847B9B !important;
+    border: #847B9B !important;
+}
+
+/* .dropdown-item.active, .dropdown-item:active {
+    background-color: #847B9B !important;
+} */

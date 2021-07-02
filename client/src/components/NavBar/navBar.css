@@ -1,0 +1,27 @@
+.app-title {
+    color: #847B9B;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.app-title:hover {
+    text-decoration: none;
+    color: #847B9B;
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #847B9B;
+    text-decoration: underline;
+}
+
+.basket {
+    width: 26px;
+    height: 26px;
+}
